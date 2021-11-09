@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config" status="INFO">
+    <Appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout pattern="%red{%d{yyyy-MM-dd HH:mm:ss}} %green{[%thread]} %highlight{%level}{STYLE=Logback} %cyan{%logger{0}} - %msg%n" />
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="CONSOLE" />
+        </Root>
+    </Loggers>
+</Configuration>

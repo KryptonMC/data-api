@@ -1,0 +1,15 @@
+{
+  "groups": [
+    {
+      "name": "main",
+      "type": "org.kryptonmc.data.config.MainConfig",
+      "sourceType": "org.kryptonmc.data.config.MainConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "main.token",
+      "type": ""
+    }
+  ]
+}
